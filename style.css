@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 450px;
+    padding: 10px 430px;
     margin-bottom: 70px;
 }
 
@@ -53,4 +53,37 @@ img {
     background-color: grey;
     text-align: center;
     display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.sometext {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+p {
+    color: white;
+    padding-bottom: 10px;
+}
+
+button {
+    padding: 8px 25px;
+    font-size: 14px;
+    border-radius: 6px;
+    border-color: white;
+    border: solid 1px black;
+    background-color: #3882f6;
+    color: white;
 }
